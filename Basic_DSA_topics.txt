@@ -1,0 +1,27 @@
+Which are the most used  basic DSA concepts that we should  know?
+
+Data Structures
+################
+Array
+Set
+Map or Dictionary
+Stack 
+Queue / Circular queues
+
+
+
+Algorithms
+###############
+Sorting - Bubblesort
+Map-reduce
+Search and replace
+
+
+Boolean Algebra
+##############
+Bit manipulation
+Not
+AND
+OR
+De-morgans law
+

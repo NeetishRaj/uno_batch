@@ -1,0 +1,23 @@
+Full stack roadmap MERN (MongoDB, Express, React and Nodejs)Stack
+
+Frontend
+	HTML
+	CSS
+	JavaScript (Your JS strength will determine the package)
+	Git & Github (Code versioning and working with other developers)
+	React (Just few lines of React code = 100s of lines of HTML, CSS and JS code)
+	
+Backend
+	Nodejs (It's something that runs JavaScript code. It's like Dotnet or JVM/JDK)
+	HTTP (Let language of the internet)
+	Rest API development
+	Database (MongoDB)
+
+DevOps
+	Github PRs: How to do opensource/general contribution?
+	Code review strategy: Checklists, code linters and code formatters
+	Building: webpack, Babel, Typescript
+	Deployment: Github pages, Netlify and Heroku
+	
+
+End Goal: To understand full stack development!
