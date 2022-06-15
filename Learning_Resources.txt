@@ -1,0 +1,15 @@
+Which are the best learning resources for self-study ?
+
+Recommendations from Neetish Sir
+Self-study for HTML-
+    HTML Course on SoloLearn Mobile App (Must)
+        https://play.google.com/store/apps/details?id=com.sololearn&hl=en_IN&gl=US
+
+    W3 schools (Must)
+        https://www.w3schools.com/tags/tag_a.asp
+
+    Mozilla (Use if topic not clear in sololearn or w3schools)
+        https://developer.mozilla.org/en-US/docs/Web/HTML
+
+    Ultimate DOcumentation (Not for us)
+        https://www.w3.org/html/

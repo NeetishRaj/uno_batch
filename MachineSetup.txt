@@ -1,0 +1,19 @@
+What are the Hardware and software requirements for learning Full stack development?
+
+Hardware (Min requirement)
+    Min i3 CPU
+    Min 8 GB RAM (4 GB is also fine but it will be slow)
+    64 bit
+
+Softwares
+    Visual Studio Code or VSCode
+        https://code.visualstudio.com/download#
+
+        VSCode Extensions
+            Live Server (Pre-installed)
+            Emmett (Pre-installed)
+            Prettier Code formatter (Need to install)
+
+    Git for windows
+        https://github.com/git-for-windows/git/releases/download/v2.36.1.windows.1/Git-2.36.1-64-bit.exe
+    
