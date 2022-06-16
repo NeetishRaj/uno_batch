@@ -1,0 +1,21 @@
+Internet Analogy.
+    - Connections localhost & Ports
+    - Client-Server connection
+    - HTML and other technologies powering the web
+    - How browser works
+
+CLI and find your way through terminal.   
+    - Benefits of CLI
+    - Basic commands (cd, Folders navigation (., .., /), ls, mkdir, rmdir,  rm)
+    - Linux Distros 
+    - Best learning resource on Linux commands (https://www.youtube.com/watch?v=bju_FdCo42w&list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK)
+
+NOTE: The people who make terminals their friends become great developers.
+
+
+
+There are 2 types of User Interface (UI) in computers 
+
+1. GUI (Graphical User Interface), here we see nice designs and work with mouse
+
+2. CLI (Command line Interface), here we see the terminal and work using commands in keyboard
