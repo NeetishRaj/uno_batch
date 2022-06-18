@@ -1,0 +1,60 @@
+Base Tags : The basic tags that every HTML page will have
+
+Common terminologies
+    Tags, Elements mean the same thing and correspond to HTML tags.
+    For example: <html> is a tag  or element
+
+    attributes or properties are the attributes of a  tag
+    For exmaple: lang is an attribute for html tag in 
+    <html lang="en">
+
+    values are the values for attributes
+    For example: "en" is the value for attribute lang
+    <html lang="en">
+
+<!DOCTYPE html> 
+In HTML5, It's a declaration to the browser that this is a HTML type document.
+It's case in-sensitive
+
+<html lang="en">
+It's the main tag and all the HTML page resides inside it.
+Html contains only two child elements <head> and <body>
+
+<head>
+
+<meta>
+
+<title>
+
+<body>
+
+<style>
+
+<script>
+
+<div>
+the most important tag in html.
+It's used to divide the page into manageable sections.
+It's a block element i.e it takes up the whole line.
+
+<span>
+It's used to divide the page into manageable sections as well just like div.
+but an in-line element i.e it stays on the same line.
+
+<p>
+It's a paragraph tag. It's also a block tag
+
+<h1>, <h2>, <h3>, <h4>, <h5>, <h6>, 
+They are all block elements.
+They have a lot of spacing around them since they are heading elements
+
+<ol>, <ul>, <li>
+ol - ordered list, it's a numbered list starting from 1
+ul - unordered list, it's a a bullet icon behind the list items
+li - list, its the list items inside ul and ol
+
+<a>
+anchor tag is used to ccreate links
+It's attributes are
+href - this is the link 
+target = _blank is used to open the link in a new tab
