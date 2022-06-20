@@ -1,0 +1,43 @@
+HTML part 2: Layout and Semantic HTML
+#######################################
+
+Resources: https://www.w3schools.com/html/html5_semantic_elements.asp
+
+header
+
+footer
+
+main
+
+nav
+
+section
+
+article
+
+aside
+
+details, summary
+https://www.w3schools.com/tags/tag_details.asp
+
+
+figure, img and figcaption
+https://www.w3schools.com/tags/tag_figure.asp
+
+
+
+Text formatting elements
+###########################
+Learning resource: https://www.w3schools.com/html/html_formatting.asp
+
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<s> - strikethrough
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Smaller text
+<sub> - Subscript text
+<sup> - Superscript text
+<blockquote> -
+<abbr> - 
