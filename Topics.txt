@@ -1,0 +1,37 @@
+HTML Part 3: Media tags, Table and Entities
+###########################################
+
+
+Media tags
+
+    video
+        Use "autoplay" & "muted" attributes together to support automatic playback
+        Use "controls" attribute to show the video controls
+        height and width can be controlled using corresponding attributes
+        "loop" attribute will keep the video in loop
+    audio
+
+    img
+
+    iframe
+
+    canvas
+
+Table
+    thead
+    tbody
+    tfoot
+    th
+    tr
+    td
+    colspan, rowspan
+    table cells and borders
+
+HTML Entities
+    Link of complete HTML entities: https://dev.w3.org/html5/html-author/charref
+    3 syntaxes of HTML entitites
+
+        named - &nbsp; , &quot;
+        number - &#160; , &#34;
+        hexadecimal - &#x000A0; ,  &#x00022;
+
