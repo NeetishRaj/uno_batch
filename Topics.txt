@@ -29,23 +29,32 @@ Input
     <input type="url">
     <input type="week">
 
-Attributes
-    for
+Input Attributes
+    placeholder
+    value
     name
+    disabled
+    size
+    maxlength
+    step(for number and range)
+    min & max for <input type="range">
     required
     placeholder
-    validate, novalidate
     autofocus
+    readonly
     pattern
+    multiple for <input type="file">
 
+form attribute
+    validate, novalidate
 
 Important Notes
 ################
 
 * All the input fields must have type, id and name attributes
 * To connect a label with an input field we use "for" in label with "id" in input field
-
-
+* Diffrence between "required" and "disabled" attribute.
+* if novalidate attribute is present in the form then all the input fields will not validated before submit.
 
 
 
