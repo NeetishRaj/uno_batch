@@ -1,0 +1,25 @@
+HTML Part 5
+#################
+
+Datalist vs Select
+Form attributes
+    novalidate
+    method
+    target
+    action
+    autocomplete
+    accept-charset
+    enctype
+fieldset and legend
+Textarea
+Pre
+SVG
+    Tutorial Link: https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial
+In class assignment
+
+
+Important Notes
+###############
+
+* When to use Datalist and when to use Select?
+* How to disable the automatic suggestions of values for input fields?
