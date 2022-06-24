@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NSC Dev Networks</title>
+
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+
+            font-size: 22px;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            padding: 20px;
+        }
+
+        div.container {
+            width: 70wh;
+            height: calc(100vh -40px);
+
+            padding: 50px;
+            padding-top: 25px;
+
+            background-color: antiquewhite;
+            color: brown;
+
+            box-shadow:
+                0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+                0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+                0 12.5px 10px rgba(0, 0, 0, 0.06),
+                0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+                0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+                0 100px 80px rgba(0, 0, 0, 0.12);
+
+        }
+
+        form>div {
+            margin-bottom: 20px;
+            width: 100%;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        input {
+            margin-left: auto;
+            padding: 5px;
+            border: none;
+
+            border-radius: 10px;
+        }
+
+        header {
+            margin-bottom: 25px;
+            width: 100%;
+
+            border-bottom: solid 2px brown;
+        }
+
+        header>h1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        header>h1>img {
+            width: 50px;
+            display: inline;
+
+            border: 5px solid black;
+            border-radius: 100%;
+            padding: 10px;
+
+            margin-right: 25px;
+
+            /* TO-DO: Add sepia filter */
+        }
+
+
+        div.button-container {
+            width: 100%;
+            display: flex;
+
+            justify-content: space-between;
+
+        }
+
+        input[type="reset"],
+        input[type="submit"] {
+
+            width: 40%;
+            padding: 10px;
+
+            background-color: brown;
+            color: antiquewhite;
+
+            font-size: 20px;
+            font-weight: 700;
+
+            margin-left: 0;
+            transition: 0.3s all;
+        }
+
+        input[type="reset"]:hover,
+        input[type="submit"]:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+        }
+
+        input[type="color"] {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: white;
+            padding: 10px;
+        }
+
+        input[type="file"] {
+            margin-right: -80px;
+        }
+        input::-webkit-file-upload-button {
+            background: white;
+            color: brown;
+            padding: 5px;
+            border-radius: 10px;
+            border: none;
+        }
+
+        div.specialization {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+        }
+
+        div.specialization > div {
+            margin-left: 30px;
+        }
+
+        div.specialization  label {
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            
+            <h1>
+                <img src="./assets/NSC_Logo.png" alt="">
+                <span>NSC Dev Networks</span> 
+            </h1>
+        </header>
+
+        <form action="" novalidate>
+            <div>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname"
+                    placeholder="Please enter your name" size="30" maxlength="20"
+                    required autofocus><br>
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter valid email" size="30" pattern="(.+)@(.+){2,}\.(.+){2,}" required><br>
+            </div>
+
+            <div>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" placeholder="age in years" max="200" step="10"><br>
+            </div>
+
+            <div>
+                <label for="dob">DOB:</label>
+                <input type="date" id="dob" name="dob"><br>
+            </div>
+
+            <div>
+                <label for="profilepassword">Profile Password:</label>
+                <input type="password" id="profilepassword" name="profilepassword" placeholder="Alphanumeric"><br>
+            </div>
+
+            <div>
+                <label for="mobileno">Mobile No.:</label>
+                <input type="tel" id="mobileno" name="mobileno" value="+91-9898989" readonly><br>
+            </div>
+
+            <div>
+                <label for="resume">Upload your resume:</label>
+                <input type="file" id="resume" name="resume" multiple><br>
+            </div>
+
+            <div>
+                <label for="college">College:</label>
+
+                <input list="college" placeholder="Select college">
+                <datalist id="college">
+                    <option value="IIT">
+                    <option value="NIT">
+                    <option value="BITS">
+                    <option value="VIT">
+                    <option value="VTU">
+                </datalist>
+            </div>
+
+            <div class="specialization">
+                <span for="specialization">Specialization:</span>
+
+                <div>
+                    <input type="checkbox" id="matriculation" name="matriculation" value="matriculation">
+                    <label for="matriculation"> Matriculation</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="intermediate" name="intermediate" value="intermediate">
+                    <label for="intermediate"> Intermediate</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="bachelor_diploma" name="bachelor_diploma" value="bachelor_diploma">
+                    <label for="bachelor_diploma"> Bachelor/Diploma</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="master" name="master" value="master">
+                    <label for="master"> Master</label>
+                </div>
+            </div>
+
+            <div>
+                <label for="graduation_percentage">Graduation %:</label>
+                <input type="range" min="0" max="100" id="graduation_percentage" name="graduation_percentage"><br>
+            </div>
+
+            <div>
+                <label for="english">Do you know English ?</label><br>
+
+                <input type="radio" id="proficient" name="english" value="proficient">
+                <label for="proficient">Proficient</label><br>
+
+                <input type="radio" id="average" name="english" value="average">
+                <label for="average">Average</label><br>
+
+                <input type="radio" id="no" name="english" value="no">
+                <label for="no">No</label><br>
+            </div>
+
+            <div>
+                <label for="tshirtcolor">Preffered T-shirt color:</label>
+                <input type="color" id="tshirtcolor" name="tshirtcolor" value="#FF0000"><br>
+            </div>
+
+            <div>
+                <label for="linkedin">LinkedIn Profile Link:</label>
+                <input type="url" id="linkedin" placeholder="Complete Url" name="linkedin"><br>
+            </div>
+
+            <br><br>
+            <div class="button-container">
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </div>
+
+
+
+        </form>
+
+    </div>
+</body>
+
+</html>

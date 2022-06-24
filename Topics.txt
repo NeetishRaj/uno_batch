@@ -1,0 +1,44 @@
+CSS Part 1: CSS basics
+######################
+
+Using CSS
+    Inline CSS
+        Done via "style" attribute in the HTML tag itself
+    Internal CSS
+    External CSS
+
+Application of CSS
+    Beautification of our HTML Form
+
+CSS Selectors
+    Element Selectors
+    Combinators
+    Pseudo classes
+    Pseudo elements
+    Selector Attributes
+
+
+Immportant Notes
+########################
+
+3 most omportant things about CSS
+
+    1. CSS can be added in 3 ways i.e Inline, Internal and External CSS.
+    2. Among all the above ways, inline styling has the highest priority.
+    3. Inside <head> tag, lower <style> or CSS <Link> will have higher priority.
+
+    inline > internal, external
+
+Pros/Cons of all three CSS techniques
+
+    Inline
+        Pros: Highest prioriy, CSS is close to HTML
+        Con: Too much Inline CSS will make code convule
+
+    Internal
+        Pros: CSS stays in same file as html and no extra HTTP request is made for that style.css file
+        Cons: It makes the HTML file big
+
+    External: 
+        Pros: CSS stays in separate file so its the most manageable way of writing CSS
+        Con: We ll have to make a separate request for CSS file.
