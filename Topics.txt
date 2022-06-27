@@ -1,0 +1,35 @@
+CSS Part 2: CSS selectors
+##########################
+
+Class and id
+
+Basic selectors
+    tagname (div, span, p, h1....)
+    class (.)
+    id (#)
+    universal (*)
+    Grouping selector (,)
+
+Combinators
+    child combinators
+        Children (space)
+        Immediate child ( > ) 
+    sibling combinators
+        Sibling ( + )
+        General sibling ( ~ )
+    
+
+
+
+Important Notes
+#################
+
+* same class can be used on multiple elements but id is supposed to be used for a single element.
+* It's a good practice to use classes as much as possible and avoid using id for styling.
+
+* classnames good practice
+    - it should be smallcase
+    - if multiple words then it should be separated by, Ex: black-bg, round-pallette
+    - classnames can have numbers but it shouldn't be in the start, Ex: border-2, space-10
+
+* Universal selector (*) is the most powerful selector as it apply styling to all the elements in the html page and therefore must be used with utmost case. It'usually written on top of the CSS file.

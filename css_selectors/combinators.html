@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div {
+            border: 2px solid black;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        /* body > div > div {
+            border: 2px solid red;
+        } */
+
+        /* Select all the divs inside gradparent class */
+        /* .grandparent div {
+            border: 2px solid red;
+        } */
+
+        /* Select only the immediate p sibling for div */
+        div + p {
+            border: 2px solid red;
+        }
+
+        /* Select all the xext p sibling for div */
+        div ~ p {
+            /* border: 2px solid red; */
+        }
+         
+    </style>
+</head>
+<body>
+
+    <p>This is also a paragraph</p>
+
+    <div class="grandparent">
+        <div class="parent">
+            <div class="child">
+                <p>
+                    This is a paragraph
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <p>This is also a paragraph</p>
+    
+    <p>This is also a paragraph</p>
+
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, ea et totam rerum porro laborum aliquid provident dolores eius sint delectus cupiditate neque. Animi possimus sunt id, laudantium optio ullam!
+    </div>
+
+</body>
+</html>
