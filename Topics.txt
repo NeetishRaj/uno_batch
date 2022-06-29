@@ -1,0 +1,45 @@
+CSS Part 3: Pseudo classes, Pseudo Elements and Attribute selectors
+########################################################################
+
+
+Pseudo classes (Complete list : https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
+    :hover
+    :root
+    :first-child
+    :last-child
+    :only-child
+    :nth-child(n)
+    :nth-last-child(n)
+    :not(selector)
+    link related
+        :link
+        :active
+        :visited
+    form related
+        :required
+        :invalid
+        :focus
+        :valid
+        :checked
+        :disabled
+        :empty
+
+Pseudo Elements ( Complete list : https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
+    ::after
+    ::before
+    ::first-letter
+    ::first-line
+    ::selection
+
+
+Attribute selectors
+    [attribute]
+    [attribute=value]
+    [attribute~=value]
+    [attribute|=value]
+    [attribute^=value]
+    [attribute$=value]	
+    [attribute*=value]
+
+
+CSS Colors

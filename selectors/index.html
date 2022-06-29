@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* :hover */
+        li:hover {
+            border-bottom: 1px solid salmon; 
+            cursor: pointer;
+        }
+
+        :root {
+            /* background-color: red; */
+            border: 10px solid red;
+            font-size: 22px;
+            font-weight: 700;
+        }
+
+        li:first-child{
+            color: red;
+        }
+
+        li:last-child{
+            color: brown;
+        }
+
+        p:only-child {
+            color: green
+        }
+
+        li:nth-child(5) {
+            background-color: lightgray;
+        }
+
+        li:nth-last-child(3) {
+            background-color: beige;
+        }
+
+        input:required {
+            border: 3px solid pink;
+        }
+
+        /* :not */
+        div:not(div:first-child) {
+            border-bottom: 2px solid red;
+        }
+
+        /* select every li except first */
+        li:not(:first-child) {
+            border-bottom: 1px solid black;
+        }
+
+        input:invalid {
+            border: 4px solid red;
+        }
+
+        input:focus {
+            outline: 2px solid black;
+        }
+
+        a:link {
+            color: brown;
+        }
+        
+        a:visited {
+            text-decoration: none;
+        }
+
+        a:active {
+            border-top: 2px solid brown;
+        }
+
+        li::after {
+            content: '*';
+        }
+
+        li::before {
+            content: '#';
+        }
+
+        li::first-letter {
+            border: 1px solid black;
+            border-radius: 50%;
+            padding: 6px;
+        }
+
+        p::first-line {
+            font-style: italic;
+        }
+
+        p::selection {
+            background-color: yellow;
+        }
+
+        [type] {
+            background-color: lightpink;
+        }
+
+        [type="tel"] {
+            border-right: 5px solid black;
+        }
+
+        [title~="is"] {
+            background-color: aquamarine;
+        }
+        [class|="special"] {
+            background: linear-gradient(blue, darkblue, blue)
+        }
+        [type^="te"] {
+            border-left: 25px solid black;
+        }
+        [type$="er"] {
+            border-right: 25px solid aquamarine;
+        }
+        [class*="di"] {
+            border-right: 30px solid yellow;
+        } 
+    </style>
+</head>
+<body>
+    <div title="this is a div">
+        <p>this pragraph is only child</p>
+    </div>
+
+    <div class="special-div">
+        <p>para 1</p>
+        <p>para 2</p>
+    </div>
+
+    <form>
+        <div>
+            <label for="name">Full Name:</label>
+            <input required type="text" placeholder="enter name" required
+                pattern="/^[a-z]{0,n}$/">
+        </div>
+
+        <div>
+            <label for="name">Age:</label>
+            <input type="number" placeholder="age in years" autofocus>
+        </div>
+
+        <div>
+            <label for="tenth">10<label> <sup>th</sup> </label> %:</label>
+            <input type="range">
+        </div>
+
+        <div>
+            <label for="tenth">Phone No:</label> %:</label>
+            <input type="tel">
+        </div>
+    </form>
+
+    <div style="padding: 20px;">
+        <a href="https://google.com" target="_blank">Google</a>
+        <a href="https://microsoft.com"  target="_blank">Microsoft</a>
+        <a href="https://amazon.com"  target="_blank">Amazon</a>
+
+    </div>
+    <ul>
+        <li>List Items 1</li>
+        <li>List Items 2</li>
+        <li>List Items 3</li>
+        <li>List Items 4</li>
+        <li>List Items 5</li>
+        <li>List Items 6</li>
+        <li>List Items 7</li>
+        <li>List Items 8</li>
+        <li>List Items 9</li>
+        <li>List Items 10</li>
+    </ul>
+
+    <div class="special">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos incidunt laboriosam aliquid accusantium consectetur autem iure omnis est explicabo eveniet culpa unde voluptatum doloribus, minima eum exercitationem fugit mollitia quo.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, sequi. Perferendis, itaque provident pariatur nemo quisquam adipisci repellat laudantium, voluptatibus, a asperiores tempore tenetur repellendus! Aut temporibus hic debitis a.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, magni impedit delectus eos pariatur eligendi corporis voluptatem ipsa fugiat earum vel quaerat repellendus aliquid aut necessitatibus incidunt sequi commodi cumque.</p>
+    </class=>
+</body>
+</html>
