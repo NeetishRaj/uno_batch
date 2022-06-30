@@ -1,0 +1,36 @@
+CSS Part 4: Colors and Box Model
+################################
+
+
+CSS Colors
+    How Pixel coloring works in monitors?
+    w3school color picker (https://www.w3schools.com/colors/colors_picker.asp)
+    Color scehemes
+        named colors
+        RGB  : rgb(255, 255, 255)
+        Hexadeimal : #FFFFFF, #FFF
+        HSL: hsl(0, 0%, 100%)
+        Alpha (opacity): rgba(0, 0, 0, 40%), #00000068, hsla(0, 0%, 0%, 40%)
+    CSS props that use Colors
+        background-color
+        background
+        color
+        border
+        outline
+
+Box Model
+    Box Model theory
+    Width & Height
+    Padding
+    border
+    margin
+    outline
+
+
+
+Important Notes
+#################
+
+* When R, G and B values are same then grey color is created
+
+* Width/Height, Padding, Border and Margin together make up the box Model. By using box model control the spacing of all the HTML elements
