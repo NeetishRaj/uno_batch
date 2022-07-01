@@ -1,0 +1,52 @@
+CSS  Part 5: Shadow, Gradients, Background, Text
+################################################
+
+Shadow
+    box-shadow
+        syntax:
+            box-shadow: h-offset v-offset blur spread color inset 
+
+
+Background
+    Gradients (Link: https://developer.mozilla.org/en-US/docs/Web/CSS/gradient)
+        linear-gradient()  (Link: https://developer.mozilla.org/en-US/docs/Web/CSS/gradient)
+        repeating-linear-gradient()  (Link: https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/repeating-linear-gradient)
+        radial-gradient() (Link: https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/radial-gradient)
+        repeating-radial-gradient()
+        conic-gradient()
+    image 
+        Link: https://developer.mozilla.org/en-US/docs/Web/CSS/background
+        background-image
+        background-repeat
+        background-position
+        background-attachment
+        opacity
+
+Text styling (Link: https://www.w3schools.com/css/css_text.asp)
+
+    Generic font-families 
+        Link: https://www.w3schools.com/css/css_font.asp
+        
+    web safe fonts
+        Link: https://www.w3schools.com/css/css_font_websafe.asp
+    @font-face
+    fonts fallback
+
+    color
+    text-align
+    text-decoration
+    text-transform
+    text-spacing
+        text-indent
+        letter-spacing
+        line-height
+        word-spacing
+        white-space
+    text-shadow
+
+    font-shorthand
+        font-style
+        font-variant
+        font-weight 100 - 900
+        font-size
+        font-family
