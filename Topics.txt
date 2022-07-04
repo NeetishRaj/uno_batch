@@ -1,0 +1,55 @@
+CSS Part 6: Box-sizing, display, position
+#########################################
+
+box-sizing
+    content-box (default)
+    border-box
+
+display
+    none
+    block
+    inline-block
+    flex
+    grid
+    ..
+
+position
+    fixed
+    static (default)
+    absolute
+    relative
+    sticky
+
+
+
+
+
+
+Important Notes
+###############
+
+- What's the use of below CSS?
+
+    * {
+        box-sizing: border-box;
+    }
+
+    Ans: This ensures that all the elements do not exceed the width and height limitations due to padding or border.
+
+
+- What's the difference between display:none and visibility: hidden?
+
+- how to make a div fixed onto the screen?
+    1. By using  position: fixed
+    2. Then position it using top, left, bottom or right properties.
+    3. Control the z-axis behaviour using z-index CSS property.
+
+- How to overlay an HTML Element over another HTML element?
+
+    Ans: 
+    1. By using position: relative for parent container and position: absolute for the HTML element that is to be overlayed.
+    2. Then position it using top, left, bottom or right properties.
+    3. Control the z-axis behaviour using z-index CSS property.
+
+- Why is position sticky used?
+   
