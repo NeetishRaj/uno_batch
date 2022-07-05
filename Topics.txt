@@ -1,0 +1,43 @@
+CSS Part 7: Transforms, Image, Transition and Flexbox
+#####################################################
+
+
+transform
+    translate
+        translateX
+        translateY
+        translateZ
+        translate3D
+    scale(x, y)
+        scaleX(x)
+        scaleY(y)
+        scaleZ(z)
+        scale3d(x, y, z)
+    rotate(angle)
+        rotateX(angle)
+        rotateY(angle)
+        roateZ(angle)
+        rotate3d(x, y, z, angle)
+    skew(x-angle, y-angle)
+        skewX(angle)
+        skewY(angle)
+    perspective(n)
+    matrix()
+
+Image related CSS
+    object-fit
+    filter
+
+Transition
+
+flexbox (display: flex;)
+    flex tool: https://www.cssportal.com/css-flexbox-generator/
+
+
+Important Notes
+###############
+
+
+* Why is Flexbox is used so much?
+    Ans: It's pretty powerful as by applying styles on the container we also control the positioning of all the child items. It gives us complete control of the items in a container.
+

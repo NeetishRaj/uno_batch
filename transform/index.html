@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            transform: perspective(10px);
+
+        }
+        .container div {
+
+            width: 200px;
+            height: 200px;
+            background: red;
+            margin: 20px;
+
+            border-top: 5px solid black;
+
+        }
+
+        .container div:nth-child(1) {
+            /* transform: translate(200px, 10px); */
+            /* or */
+            transform: translateX(200px) translateY(10px);
+
+            /* transform: translateZ(200px); */
+
+        }
+
+        .container div:nth-child(2) {
+            /* transform: rotate(-30deg); */
+            /* transform: rotateX(30deg); */
+
+            transform: rotate3d(1, 1, 1, 60deg);
+
+        }
+
+        .container div:nth-child(3) {
+            transform: scale(1.2);
+            /* or */
+            transform: scaleX(1.2) scaleY(1.2);
+        }
+
+        .container div:nth-child(4) {
+
+            margin-top: 50px;
+
+            /* transform: skew(30deg, 30deg); */
+
+            /* or */
+            transform: skewX(30deg) skewY(30deg);
+        }
+
+        .container div:nth-child(5) {
+
+            margin-top: 50px;
+
+        }
+
+        .container
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div></div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae unde magni laboriosam beatae quas illum ea
+            quis atque harum repudiandae incidunt, natus ex ad dolorem vero laudantium provident, enim explicabo!</div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa inventore officia deserunt aliquam unde
+            suscipit corrupti fugiat, ducimus obcaecati repellendus distinctio hic quo explicabo sed cumque dolores! Et,
+            qui iure?</div>
+
+    </div>
+
+</body>
+
+</html>
