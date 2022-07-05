@@ -27,7 +27,6 @@ This repo is intended for my students for quick-reference. All the daily session
 - [4-Jul-CSS-Part-6-Box-Sizing-display-position]
 
 
-
 [//]: #
    [14-Jun-Intro-And-Full-Stack-Roadmap]: <https://github.com/NeetishRaj/uno_batch/tree/14-Jun-Intro-And-Full-Stack-Roadmap>
    [15-Jun-Resources-And-VSCode-Setup]: <https://github.com/NeetishRaj/uno_batch/tree/15-Jun-Resources-And-VSCode-Setup>
@@ -43,5 +42,3 @@ This repo is intended for my students for quick-reference. All the daily session
    [30-Jun-CSS-Part-4-Colors-Box-Model]:<https://github.com/NeetishRaj/uno_batch/tree/30-Jun-CSS-Part-4-Colors-Box-Model>
    [1-Jul-CSS-Part-5-Shadow-Gradients-Background-Text]:<https://github.com/NeetishRaj/uno_batch/tree/1-Jul-CSS-Part-5-Shadow-Gradients-Background-Text>
    [4-Jul-CSS-Part-6-Box-Sizing-display-position]:<https://github.com/NeetishRaj/uno_batch/tree/4-Jul-CSS-Part-6-Box-Sizing-display-position>
-
- 
