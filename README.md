@@ -5,6 +5,8 @@ This repo is a collection of programming notes created during my full stack trai
 ## Usage
 This repo is intended for my students for quick-reference. All the daily sessions are captured date-wise by creating a separate branch. Just click the branch dropdown and select them to get the notes on that day.
 
+![](https://img.shields.io/github/stars/NeetishRaj/uno_batch.svg) ![](https://img.shields.io/github/forks/NeetishRaj/uno_batch.svg) ![](https://img.shields.io/github/issues/NeetishRaj/uno_batch.svg) ![](https://img.shields.io/github/watchers/NeetishRaj/uno_batch.svg)
+
 ### Topic wise links
 
 ##### Course Intro
